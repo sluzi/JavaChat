@@ -18,7 +18,7 @@ public class CommunicationProtocol{
     
     public String getSender()
     {
-        return _sender
+        return _sender;
     }
     
     public void setSender(String snd)
@@ -33,7 +33,7 @@ public class CommunicationProtocol{
     
     public void setMessage(String msg)
     {
-        this._message = msg
+        this._message = msg;
     }
     
     public int getType()
